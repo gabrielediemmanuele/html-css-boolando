@@ -84,11 +84,18 @@ header {
   z-index: 9;
 }
 
+.label-3:hover {
+  background-color: #ffffff;
+  color: #ff6900;
+  z-index: 9;
+}
+
 /*card img style*/
 .card-img > img {
   width: 100%;
 }
 
+/*card switch effect*/
 .card-img .img-change {
   display: none;
   position: absolute;
