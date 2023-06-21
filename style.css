@@ -130,10 +130,17 @@ header {
 }
 
 /*footer*/
+footer {
+  width: 100%;
+  min-height: 50px;
+  background-color: #1a1a1a;
+}
+
 .foot-cont {
   max-width: 850px;
   min-height: 50px;
   margin: auto;
+  padding: 20px 0px;
 
   background-color: #1a1a1a;
   color: white;
@@ -141,4 +148,29 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/*footer text style*/
+.foot-cont h4 {
+  margin: 0px 0px 5px 0px;
+}
+
+.left-block > h4 {
+  padding-right: 20px;
+  text-align: center;
+}
+
+.left-block > .fa-brands {
+  margin: 0px 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.right-block > span {
+  margin-right: 10px;
+}
+.right-block > span:hover {
+  margin-right: 10px;
+  text-decoration: underline;
+  color: orange;
 }
