@@ -62,13 +62,13 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
 
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
 }
 
 .card {
   width: 28%;
   margin: 50px 20px;
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
   position: relative;
   display: inline-block;
   cursor: pointer;
