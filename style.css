@@ -6,20 +6,28 @@ body {
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header {
-  background-color: #ff6900;
+/*style nav*/
+.nav-container {
+  width: 100%;
+  min-height: 50px;
+
   display: flex;
-  min-height: 25px;
-  border: 2px dashed black;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: #ff6900;
+
+  position: fixed;
+  top: 0;
+  padding: 10px 30px;
 }
 
-.nav-container {
-  width: 1200px;
-  min-height: 20px;
-  margin: 20px auto;
-  display: flex;
-  background-color: #ff6900;
-  justify-content: space-between;
-  align-items: center;
-  border: 2px dashed black;
+#logo-boolean {
+  width: 160px;
+}
+
+/*style main*/
+
+.container {
+  max-width: 1200px;
 }
