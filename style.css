@@ -48,6 +48,7 @@ header {
   margin: 50px 20px;
   border: 2px dashed black;
   position: relative;
+  display: inline-block;
 }
 
 /*labels style */
@@ -58,6 +59,7 @@ header {
   padding: 4px 6px;
   color: white;
   font-size: 10px;
+  z-index: 9;
 }
 
 .card > .label-2 {
@@ -68,6 +70,7 @@ header {
   padding: 4px 6px;
   color: white;
   font-size: 10px;
+  z-index: 9;
 }
 
 .card > .label-3 {
@@ -78,11 +81,24 @@ header {
   padding: 4px 8px;
   color: rgb(255, 255, 255);
   font-size: 20px;
+  z-index: 9;
 }
 
 /*card img style*/
 .card-img > img {
   width: 100%;
+}
+
+.card-img .img-change {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 8;
+}
+
+.card-img:hover .img-change {
+  display: inline;
 }
 
 /*card text style*/
