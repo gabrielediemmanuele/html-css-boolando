@@ -27,6 +27,14 @@ header {
 
 #logo-boolean {
   width: 160px;
+  cursor: pointer;
+}
+
+/*style  nav block-1*/
+.block-1 > a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
 }
 
 /*style main*/
