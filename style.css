@@ -5,3 +5,21 @@ body {
   color: white;
   font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+header {
+  background-color: #ff6900;
+  display: flex;
+  min-height: 25px;
+  border: 2px dashed black;
+}
+
+.nav-container {
+  width: 1200px;
+  min-height: 20px;
+  margin: 20px auto;
+  display: flex;
+  background-color: #ff6900;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px dashed black;
+}
