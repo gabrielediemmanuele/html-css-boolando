@@ -21,7 +21,7 @@ header {
 
   position: fixed;
   top: 0;
-  padding: 10px 30px;
+  padding: 10px 100px;
   z-index: 10;
 }
 
@@ -127,4 +127,18 @@ header {
 .cut {
   text-decoration: line-through;
   font-size: 15px;
+}
+
+/*footer*/
+.foot-cont {
+  max-width: 850px;
+  min-height: 50px;
+  margin: auto;
+
+  background-color: #1a1a1a;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
